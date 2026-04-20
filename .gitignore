@@ -1,0 +1,38 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# PyTorch checkpoints and weights
+# Excluded to avoid exceeding GitHub's 100MB file limit for DETR weights
+*.pth
+*.pt
+weights/
+
+# Datasets and outputs
+data/raw/
+data/processed/
+output/
+downloads/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+.pytest_cache/
